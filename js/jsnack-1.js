@@ -5,7 +5,10 @@ Esegui questo programma in due versioni, con il for e con il while.
 
 */
 
-let i=0;
+const jsnack1Element = document.getElementById('jsnack-1');
+let message = 'Il totale dei cinque numeri inseriti è:';
+
+/* let i=0;
 let totaldowhile=0;
 do
 {
@@ -23,7 +26,7 @@ for (let k = 0; k < 5; k++)
 {
     const number = parseInt(prompt(`Inserisci un numero ( ${k+1} di 5 )`));
     totalfor += number;
-}
+} */
 
 let z = 0;
 let totalwhile = 0;
@@ -37,3 +40,5 @@ while(z < 5)
 }
 
 console.log(totalwhile);
+
+jsnack1Element.innerHTML = message + ' ' + totalwhile ;
