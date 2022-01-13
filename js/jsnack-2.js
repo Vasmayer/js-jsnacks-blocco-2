@@ -34,4 +34,4 @@ do{
 
 }while(!isNumberValid)
 
-jsnack2Element.innerHTML = 'Il numero Pari che hai inserito è:' + message ;
+jsnack2Element.innerHTML = 'Il numero Pari che hai inserito:' + message ;
